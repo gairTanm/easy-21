@@ -13,3 +13,6 @@ All of these are implemented in Easy 21, a spin-off of the classic Blackjack, wi
 
 [requirements.txt](/requirements.txt) contains all the dependencies, and to install them run
 `pip install -r requirements.txt` in the root directory of the project.
+
+To reproduce the results, try running,
+`python code/[agent].py` where agents include the ones defined above.
