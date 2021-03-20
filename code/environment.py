@@ -83,6 +83,7 @@ class Environment(object):
         return Card.value if Card.color == Color.BLACK else Card.value * -1
 
     def dealer_turn(self, s):
+
         action = None
         while not s.is_terminal:
             action = self.dealer.policy(s)
@@ -114,6 +115,3 @@ class Environment(object):
             if next_s.is_terminal:
                 r = -1
         return next_s, r
-
-
-environment = Environment()

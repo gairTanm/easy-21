@@ -10,3 +10,6 @@ Algorithms implemented include
 - Linear Function Approximation
 
 All of these are implemented in Easy 21, a spin-off of the classic Blackjack, with non-standard rules.
+
+[requirements.txt](/requirements.txt) contains all the dependencies, and to install them run
+`pip install -r requirements.txt` in the root directory of the project.
