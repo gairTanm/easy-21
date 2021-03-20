@@ -21,9 +21,6 @@ class Card(object):
         return np.random.randint(1, 10)
 
     def _get_random_color(self):
-        """
-        Color.RED with 1/3 and Color.BLACK with 2/3 probability.
-        """
         prob = np.random.rand()
         if prob > 1 / 3.0:
             return Color.BLACK
