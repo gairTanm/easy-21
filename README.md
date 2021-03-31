@@ -8,6 +8,10 @@ Algorithms implemented include
 - Monte Carlo Control
 - TD Control (SARSA  $\lambda$ with eligibility traces)
 - Linear Function Approximation
+## Sarsa
+![sarsa](/assets/sarsa.gif)
+## Monte Carlo
+![mc](/assets/mcpc.gif)
 
 All of these are implemented in Easy 21, a spin-off of the classic Blackjack, with non-standard rules.
 
